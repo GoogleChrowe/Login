@@ -13,9 +13,6 @@ function sendMail() {
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("message").value = "";
-        console.log(res);
-        alert("Error 505")
-
     })
     .catch(err=>console.log(err));
 
